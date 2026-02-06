@@ -1,4 +1,4 @@
-# Crypto Analysis Dashboard
+# Cryptonalysis Dashboard
 
 ## Overview
 The Crypto Analysis Dashboard is a web application designed to help users monitor and analyze the cryptocurrency market in real time.  
