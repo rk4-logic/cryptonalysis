@@ -1,7 +1,7 @@
 # Cryptonalysis Dashboard
 
 ## Overview
-The Crypto Analysis Dashboard is a web application designed to help users monitor and analyze the cryptocurrency market in real time.  
+The Cryptonalysis Dashboard is a web application designed to help users monitor and analyze the cryptocurrency market in real time.  
 It provides live price updates, market trends, and key metrics to support better understanding of crypto market movements.
 
 The application uses the CoinGecko API to fetch reliable and up-to-date cryptocurrency data.
@@ -32,11 +32,15 @@ This application helps users:
 - Track multiple crypto assets in one place
 
 ## Environment Variables
-Create a .env.local file in the root directory of the project and add the following variables:
-  COINGECKO_API_KEY=your_coingecko_api_key
-  NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
-  COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
-  NEXT_PUBLIC_COINGECKO_WEBSOCKET_URL=wss://stream.coingecko.com/v1
+
+Create a `.env.local` file in the root directory of the project and add the following variables:
+
+```env
+COINGECKO_API_KEY=your_coingecko_api_key
+NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
+COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
+NEXT_PUBLIC_COINGECKO_WEBSOCKET_URL=wss://stream.coingecko.com/v1
+
 
 ## Note:
 API keys are not included in the repository for security reasons.
