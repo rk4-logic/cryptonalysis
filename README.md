@@ -31,10 +31,22 @@ This application helps users:
 - Analyze price changes and market trends
 - Track multiple crypto assets in one place
 
+## Environment Variables
+Create a .env.local file in the root directory of the project and add the following variables:
+COINGECKO_API_KEY=your_coingecko_api_key
+NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
+COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
+NEXT_PUBLIC_COINGECKO_WEBSOCKET_URL=wss://stream.coingecko.com/v1
+
+## Note:
+API keys are not included in the repository for security reasons.
+You can generate a CoinGecko API key from the official CoinGecko website.
+Variables prefixed with NEXT_PUBLIC_ are exposed to the client as required by Next.js.
+
 ## Getting Started
 
 ### Installation
 ```bash
-git clone https://github.com/your-username/crypto-analysis-dashboard.git
+git clone https://github.com/rk4-logic/cryptonalysis.git
 cd crypto-analysis-dashboard
 npm install
