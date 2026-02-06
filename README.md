@@ -20,7 +20,7 @@ The application uses the CoinGecko API to fetch reliable and up-to-date cryptocu
 - TypeScript
 - Tailwind CSS
 - CoinGecko API
-- Axios / Fetch API
+
 
 ## Data Source
 All cryptocurrency market data is fetched from the **CoinGecko API**, ensuring accurate and up-to-date pricing and market information.
