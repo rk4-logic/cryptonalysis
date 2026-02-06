@@ -33,10 +33,10 @@ This application helps users:
 
 ## Environment Variables
 Create a .env.local file in the root directory of the project and add the following variables:
--COINGECKO_API_KEY=your_coingecko_api_key
--NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
--COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
--NEXT_PUBLIC_COINGECKO_WEBSOCKET_URL=wss://stream.coingecko.com/v1
+  COINGECKO_API_KEY=your_coingecko_api_key
+  NEXT_PUBLIC_COINGECKO_API_KEY=your_coingecko_api_key
+  COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
+  NEXT_PUBLIC_COINGECKO_WEBSOCKET_URL=wss://stream.coingecko.com/v1
 
 ## Note:
 API keys are not included in the repository for security reasons.
